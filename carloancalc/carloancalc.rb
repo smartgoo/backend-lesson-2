@@ -66,6 +66,7 @@ loop do
 
   # find out the apr
   prompt("What is your APR?")
+  prompt("(Example: 5 for 5%, 2.5 for 2.5%")
 
   loop do
     apr = gets().chomp()
